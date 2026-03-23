@@ -2,6 +2,7 @@
 # Python (Backend)
 # ========================
 __pycache__/
+*.pyc
 *.py[codz]
 *$py.class
 *.so
