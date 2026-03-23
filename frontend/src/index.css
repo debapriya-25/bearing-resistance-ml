@@ -15,6 +15,23 @@
 
 @layer utilities {
   .glass-card {
-    @apply bg-card-bg backdrop-blur-md border border-card-border rounded-xl shadow-lg;
+    @apply bg-card-bg backdrop-blur-md border border-card-border rounded-xl shadow-lg transition-all duration-300;
+  }
+  .glass-card-hover {
+    @apply hover:-translate-y-1 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:bg-white/5;
+  }
+  .animate-scale-in {
+    animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
   }
 }
