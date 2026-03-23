@@ -21,7 +21,7 @@
 
 | Service | URL |
 |---|---|
-| **Frontend** | [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app) |
+| **Frontend** | [https://your-vercel-link.vercel.app](bearing-resistance-ml.vercel.app) |
 | **Backend API** | [https://bearing-resistance-backend.onrender.com](https://bearing-resistance-backend.onrender.com) |
 | **API Docs (Swagger)** | [https://bearing-resistance-backend.onrender.com/docs](https://bearing-resistance-backend.onrender.com/docs) |
 
