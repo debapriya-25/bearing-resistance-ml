@@ -11,7 +11,7 @@
 
 **An end-to-end Machine Learning web application that predicts soil bearing resistance using XGBoost — featuring a React dashboard, FastAPI backend, and real-time chart visualizations.**
 
-[Live Demo](#-live-links) · [Screenshots](#-screenshots) · [Setup](#%EF%B8%8F-setup--installation) · [API Docs](#-api-reference)
+[Live Demo](#live-links) · [Screenshots](#screenshots) · [Setup](#setup--installation) · [API Docs](#api-reference)
 
 </div>
 
@@ -21,11 +21,11 @@
 
 | Service | URL |
 |---|---|
-| **Frontend** | [https://your-vercel-link.vercel.app](bearing-resistance-ml.vercel.app) |
+| **Frontend** | [https://bearing-resistance-ml.vercel.app](https://bearing-resistance-ml.vercel.app) |
 | **Backend API** | [https://bearing-resistance-backend.onrender.com](https://bearing-resistance-backend.onrender.com) |
 | **API Docs (Swagger)** | [https://bearing-resistance-backend.onrender.com/docs](https://bearing-resistance-backend.onrender.com/docs) |
 
->  The backend is hosted on Render's free tier — first load may take **~30 seconds** to spin up.
+> The backend is hosted on Render's free tier — first load may take **~30 seconds** to spin up.
 
 ---
 
@@ -63,12 +63,12 @@
 
 ## Features
 
--  **ML Prediction Engine** — XGBoost model trained on geotechnical soil data for accurate bearing resistance predictions
--  **Interactive Dashboard** — Real-time Chart.js visualizations including bar charts, line graphs, and scatter plots
--  **FastAPI Backend** — High-performance REST API with auto-generated Swagger docs
--  **Responsive UI** — Clean React + Tailwind CSS interface optimized for desktop and mobile
--  **REST API Integration** — Seamless frontend-backend communication with proper error handling
--  **Input Validation** — Real-time form validation with user-friendly error messages
+- **ML Prediction Engine** — XGBoost model trained on geotechnical soil data for accurate bearing resistance predictions
+- **Interactive Dashboard** — Real-time Chart.js visualizations including bar charts, line graphs, and scatter plots
+- **FastAPI Backend** — High-performance REST API with auto-generated Swagger docs
+- **Responsive UI** — Clean React + Tailwind CSS interface optimized for desktop and mobile
+- **REST API Integration** — Seamless frontend-backend communication with proper error handling
+- **Input Validation** — Real-time form validation with user-friendly error messages
 
 ---
 
@@ -210,7 +210,7 @@ Frontend runs at: `http://localhost:5173`
 
 ---
 
-##  API Reference
+## API Reference
 
 ### `POST /predict`
 
@@ -244,7 +244,7 @@ Predict bearing resistance from soil parameters.
 
 ---
 
-##  ML Model Details
+## ML Model Details
 
 | Property | Value |
 |---|---|
@@ -255,7 +255,7 @@ Predict bearing resistance from soil parameters.
 
 ---
 
-##  Deployment
+## Deployment
 
 ### Frontend → Vercel
 1. Push code to GitHub
@@ -267,7 +267,7 @@ Predict bearing resistance from soil parameters.
 1. Connect GitHub repo on [render.com](https://render.com)
 2. Set **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 3. Set **Root Directory**: `backend`
-4. Deploy
+4. Deploy 
 
 ---
 
@@ -275,3 +275,8 @@ Predict bearing resistance from soil parameters.
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
+---
+
+<div align="center">
+⭐ If this project helped you, please consider giving it a star!
+</div>
