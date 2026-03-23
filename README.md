@@ -11,7 +11,7 @@
 
 **An end-to-end Machine Learning web application that predicts soil bearing resistance using XGBoost — featuring a React dashboard, FastAPI backend, and real-time chart visualizations.**
 
-[Live Demo](#-live-links) · [📸 Screenshots](#-screenshots) · [⚙️ Setup](#%EF%B8%8F-setup--installation) · [📡 API Docs](#-api-reference)
+[Live Demo](#-live-links) · [Screenshots](#-screenshots) · [Setup](#%EF%B8%8F-setup--installation) · [API Docs](#-api-reference)
 
 </div>
 
