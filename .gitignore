@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,73 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+# ========================
+# Python (Backend)
+# ========================
+__pycache__/
+*.pyc
+*.py[codz]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / cache
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ========================
+# IMPORTANT: KEEP MODEL FILE
+# ========================
+!backend/pipeline.pkl
+
+# ========================
+# Dataset (PRIVATE)
+# ========================
+backend/data/
+
+# ========================
+# React / Node (Frontend)
+# ========================
+node_modules/
+frontend/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Editor / IDE
+# ========================
+.vscode/
+.idea/
+>>>>>>> e8160f42557a10819e7530fef24b5c2993a0d8ab
